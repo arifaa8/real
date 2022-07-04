@@ -1,0 +1,301 @@
+--------------index.html--------------------
+line 33 =) <div class="row col-xl-12">
+line 54 =) <div class="row col-xl-6">
+line 137 =) <table class=" table table-bordered">
+
+
+--------------------contact.html-----------------
+line 8 =) <nav class="navbar navbar-expand-lg navbar-light bg-dark>
+line 80 =) <button type="submit" class="btn btn-primary">sign in</button>
+
+style="padding:16px" "background-color:hsl(0,0,50%)
+
+-----------
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link waves-effect waves-light" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Options</a>
+                        <div class="dropdown-menu dropdown-info" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item waves-effect waves-light" href="#">Option 1</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="md-form my-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control mb-3" id="inputEmail4" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control mb-3" id="inputPassword4" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control mb-3" id="inputCity">
+                    </div>
+                    <div>
+                        <label for="inputState">State</label>
+                        <select id="inputState" class="form-control mb-3">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control mb-3" id="inputZip">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                        Urgent message
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+-----
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link waves-effect waves-light" href="./home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Options</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="md-form my-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="card shadow-sm mb-3">
+                        <img class="card-img-top border-bottom"
+                            src="../assets/placeholder-image.png"
+                            alt="Card image cap"
+                            />
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">Card 1</h5>
+                                <a href="#" class="btn btn-primary">
+                                Button
+                                </a>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                Subtitle
+                            </h6>
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="card shadow-sm mb-3 ">
+                        <img class="card-img-top border-bottom"
+                            src="../assets/placeholder-image.png"
+                            alt="Card image cap"
+                            />
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">Card 2</h5>
+                                <a href="#" class="btn btn-primary">
+                                Button
+                                </a>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                Subtitle
+                            </h6>
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex bd-highlight">
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="card shadow-sm mb-3">
+                        <img class="card-img-top border-bottom"
+                            src="../assets/placeholder-image.png"
+                            alt="Card image cap"
+                            />
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">Card 1</h5>
+                                <a href="#" class="btn btn-primary">
+                                Button
+                                </a>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                Subtitle
+                            </h6>
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="card shadow-sm mb-3">
+                        <img class="card-img-top border-bottom"
+                            src="../assets/placeholder-image.png"
+                            alt="Card image cap"
+                            />
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">Card 2</h5>
+                                <a href="#" class="btn btn-primary">
+                                Button
+                                </a>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                Subtitle
+                            </h6>
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 flex-fill bd-highlight">
+                    <div class="card shadow-sm mb-3">
+                        <img class="card-img-top border-bottom"
+                            src="../assets/placeholder-image.png"
+                            alt="Card image cap"
+                            />
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between">
+                                <h5 class="card-title">Card 2</h5>
+                                <a href="#" class="btn btn-primary">
+                                Button
+                                </a>
+                            </div>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                Subtitle
+                            </h6>
+                            <p class="card-text">Description</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Origin</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Name1</td>
+                        <td>Origin1</td>
+                        <td>1$</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Name2</td>
+                        <td>Origin2</td>
+                        <td>1$</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Name3</td>
+                        <td>Origin3</td>
+                        <td>1$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
+
+-----
+ques - 2
+-------
+
+	<select (change)="fn1()" [(ngModel)]="selectedObject">
+    <option *ngFor="let c of currencies" [ngValue]="c">{{c.code}}</option>
+</select>
+
+-------
+
+
+import { Component,EventEmitter,Input,Output } from '@angular/core';
+import {Currency} from '../model/currency';
+
+@Component({
+  selector: 'app-currency-selector',
+  templateUrl: './currency-selector.component.html',
+  styleUrls: ['./currency-selector.component.css'],
+})
+export class CurrencySelectorComponent {
+  @Input() currencies:any;
+  @Output() onSelect:EventEmitter<Currency>=new EventEmitter();
+  selectedObject:Currency;
+  fn1()
+  {
+    this.onSelect.emit(this.selectedObject);
+  }
+}
